@@ -1,0 +1,30 @@
+.parent{
+    display: grid;
+    grid-template-areas: 
+    "s as"
+    "ar as"
+    ;
+}
+.sec{
+    grid-area: s;
+    border:2px solid green;
+    margin:5px 0;
+    padding: 3px;
+    text-align: center;
+    height:200px;
+}
+.art{
+    grid-area: ar;
+    border:2px solid rgb(169, 206, 5);
+    margin:5px 0;
+    padding: 3px;
+    text-align: center;
+    height:200px;
+}
+.as{
+    grid-area: as;
+    border:2px solid rgb(128, 34, 0);
+    margin:5px 2px;
+    padding: 3px;
+    text-align: center;
+}
