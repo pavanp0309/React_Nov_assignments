@@ -24,7 +24,6 @@ export default function TeamDashboard() {
                 AI-Enabled Team Insights Panel
             </h1>
 
-            {/* 💥 FLEXBOX RESPONSIVE WRAPPER */}
             <div style={{
                 display: "flex",
                 flexWrap: "wrap",

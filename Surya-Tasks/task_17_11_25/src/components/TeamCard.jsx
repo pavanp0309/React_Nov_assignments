@@ -13,9 +13,9 @@ export default function TeamCard({
     return (
         <div
             style={{
-                flex: "1 1 280px",     // 💥 RESPONSIVE CARD WIDTH
-                minWidth: "280px",     // 💥 Minimum size for mobile
-                maxWidth: "350px",     // 💥 Looks clean on large screens
+                flex: "1 1 280px",
+                minWidth: "280px",
+                maxWidth: "350px",
 
                 border: "1px solid #ddd",
                 padding: "20px",
