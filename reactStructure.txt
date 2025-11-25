@@ -1,0 +1,47 @@
+node_modules/
+When you install something using npm install, all the tools (libraries like React, Vite, etc.) are stored here. You should not edit anything here manually we can just use it.
+
+public/
+It contains the files that don’t need to be changed. These files are directly sent to the browser — they are not processed or changed by Vite.
+
+src/
+This is your main working area. All your React code, components, and styles are here. Whatever you build inside src — Vite will bundle (combine and optimize) it for you.
+
+
+Inside src/
+
+assets/
+Used for storing images, fonts, or other static resources used in your components.
+
+App.jsx
+This is your main React component (root of your UI). Usually defines what appears on your home screen.
+
+App.css
+Contains styles specific to your App.jsx component.
+
+index.css
+Global CSS for your whole app (applied everywhere).
+
+main.jsx
+This is like the starting point of your website. It connects your React app to the index.html page.
+
+index.html
+The single HTML file that loads your React app. It has a <div id="root"></div> where React components will render.
+
+vite.config.js
+This file controls how Vite works. You can change settings like: Port number (which you open in browser), Adding plugins, Setting custom paths.
+
+eslint.config.js
+This file helps you write clean and error-free code. It warns you if something is wrong or messy in your JavaScript.
+
+package.json
+This is your project’s details and setup list. It contains: Project name, Scripts (commands), Dependencies (the libraries your app uses)
+
+package-lock.json
+This file makes sure your project uses the exact same versions of libraries every time — so it doesn’t break. You don’t edit it; it’s created automatically.
+
+README.md
+This is just an information file about your project. Usually, it explains how to run or install it — like a small guide for others (or you later).
+
+.gitignore
+This file tells Git which files/folders to skip when you upload your project to GitHub. Example: you don’t want to upload node_modules because it’s huge.
